@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto-Mono;
+    user-select: none;
+}
+
+@font-face {
+    font-family: Roboto-Mono;
+    src: url("./RobotoMono-VariableFont_wght.ttf");
+}
+
+body{
+    background: #cad2c5;
+}
+
+.app-container{
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.app-image{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.input-el{
+    font-size: 20px;
+    padding: 15px;
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-el{
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border:none;
+    border-radius: 10px;
+    background: #52796f;
+    cursor: pointer;
+    transition: .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button-el:hover{
+    scale: 1.1;
+    background-color: #2f3e46;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+ul li{
+    background-color: #84a98c;
+    font-size: 20px;
+    color: #354f52;
+    padding: 10px;
+    flex-grow: 1;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px;
+}
+
+ul li:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#shopping-list{
+    color: #354f52;
+}
